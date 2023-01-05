@@ -95,6 +95,9 @@ background-image: url('file:///C:/Users/lora/Downloads/lunch-background.jpg') }
 <input type=submit value="Submit form">
 </span>
 </div>
+[<small>Developed by 
+    Lora Antonova.</a></a>
+</small>]
 </form>
 </body>
 </html>
