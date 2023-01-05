@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+
+<style>
+		
+    body {
+        
+        margin: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 15%;
+        margin-right: 15%;
+
+    }
+
+    h1 {
+        
+        text-align: center;
+        padding: 10px;}
+
+   
+   span { 
+    background-color: rgb(128, 30, 0); 
+} 
+
+    img {
+  width: 100%;
+  height: auto;
+}
+span{
+			background-color: rgba(232, 207, 108);
+			box-shadow: 20px 20px 20px #ca6a10;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: medium;
+            color: rgb(231, 63, 37);
+            outline-color: black;
+			padding: 20px 20px;
+			margin: 11px;
+			margin-top: 30px;
+            display:block;
+		}
+
+    html { 
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-image: url('file:///C:/Users/lora/Downloads/lunch-background.jpg') } 
+
+</style>
+
+<head>
+<title>Lunch Survey form</title>
+</head>
+<body>
+
+<form action="http://google.co.in">
+<div align="center">
+    <div class="header">
+        <img src="file:///C:/Users/lora/Downloads/title-picture.jpg" alt="logo" />
+        
+      </div>
+      
+<span id="block1">
+    <p>
+<b>☛Enter your name:</b>
+<input type="text" name="UserName" size=35 maxlength=35 value="">
+</br></br>
+<b>☛Enter your department:</b>
+<input type="text" name="Deptt" size=35 maxlength=35 value=""> </br> </br>
+<b>☛Are you up for a lunch?</b>
+<input type="radio" name="exe" value=1>Yes
+<input type="radio" name="exe" value=2>No
+</p>
+<b>☛Where do you prefer to eat?</b>
+<p>
+<input type="checkbox" name="Eddy">Eddy's
+<input type="checkbox" name="Happy">Happy
+<input type="checkbox" name="Djovani">Djovani
+<input type="checkbox" name="other">Other
+<p>
+<b>☛If other, please specify:</b>
+<input type="text" name="Deptt" size=35 maxlength=35 value=""> </br> </br>
+
+<b>☛What time is convenient for you?</b>
+<select name="moviepref" ><option>
+<option value=1 selected = "true">12:00
+<option value=2 >12:30
+<option value=3 >13:00
+<option value=4 >13:30
+
+</select>
+</br></br>
+<input type=submit value="Submit form">
+</span>
+</div>
+</form>
+</body>
+</html>
